@@ -51,7 +51,7 @@ def main():
     room_key = random.choice(rooms)
     key_obtained = False
     room = entrance
-    print('Welcome to the Python Escape Room! This version is pirated from Youtube')
+    print('Welcome to the Python Escape Room!')
 
     while True:
         if key_obtained and room['name'] == 'Entrance':
